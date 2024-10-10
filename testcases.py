@@ -10,7 +10,8 @@ class Lab3TestCases(unittest.TestCase):
     def test_double_two(self):
         result = functions.double(3)
         expected = 6
-        self.assertEqual(expected, result)
+        self.assertEqual(expected, result) #result should be 6
+                            # issue is that the function squares not doubles
 
 
 if __name__ == '__main__':
